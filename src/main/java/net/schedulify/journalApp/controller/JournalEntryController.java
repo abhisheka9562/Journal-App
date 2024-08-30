@@ -22,6 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping({"/journal"})
 public class JournalEntryController {
+   /*
     private Map<Long, JournalEntry> journalEntries = new HashMap();
 
     public JournalEntryController() {
@@ -52,4 +53,6 @@ public class JournalEntryController {
     public JournalEntry updateJournal(@PathVariable Long var, @RequestBody JournalEntry myEntry) {
         return (JournalEntry)this.journalEntries.put(var, myEntry);
     }
+
+    */
 }
